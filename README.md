@@ -76,6 +76,7 @@ Para trabajar con la raspberry se recomienda el uso de [Thonny](https://thonny.o
 Una vez que tengas instalado Thonny conecta tu raspberry pi pico mientras presionas el botón bootsel.
 
 ![BOOTSEL](https://projects-static.raspberrypi.org/projects/getting-started-with-the-pico/725a421f3b51a5674c539d6953db5f1892509475/en/images/Pico-bootsel.png)
+![BOOTSEL](/resources/images/getting_started/image13.png)
 
 Al hacer esto tu computadora reconocerá el dispositivo como una unidad de almacenamiento. Cuando abras thonny te aparecerá una ventana similar a esa, da click donde dice *Python 3.X.X*
 

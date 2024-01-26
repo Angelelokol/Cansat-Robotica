@@ -47,3 +47,5 @@ Otra forma en la que podemos guardar códigos o librerías dentro de la raspberr
 
     <video src="20240125-1920-48.2598682.mp4" controls title="UploadDownload"></video>
 
+    ![UploadDownload](/resources/images/code/20240125-1920-48.2598682.gif)
+
