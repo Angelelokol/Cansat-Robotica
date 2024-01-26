@@ -79,15 +79,15 @@ Una vez que tengas instalado Thonny conecta tu raspberry pi pico mientras presio
 
 Al hacer esto tu computadora reconocerá el dispositivo como una unidad de almacenamiento. Cuando abras thonny te aparecerá una ventana similar a esa, da click donde dice *Python 3.X.X*
 
- ![Alt text](/resources/images/image.png)
+ ![Alt text](/resources/images/getting_started/image.png)
 
  y selecciona la opción que diga *Micropython (Raspberry Pi Pico)*
 
-![Micropython](/resources/images/image-10.png)
+![Micropython](/resources/images/getting_started/image-10.png)
 
  Al hacer esto debería aparecer una ventana en donde te permita instalar el firmware necesario para utilizar micropython en la raspberry. La ventana lucirá algo asi
 
- ![Ventana_Instalación](/resources/images/image-11.png)
+ ![Ventana_Instalación](/resources/images/getting_started/image-11.png)
 
  Simplemente dale a instalar y espera a que termine la instalación, después de eso cierra la ventana y ya estas listo para comenzar a programar 😊.
 
@@ -107,22 +107,22 @@ Para utilizar el modulo de telemetría no es necesario ninguna librería, sin em
 
 1. Da click a la opción de abrir fichero y selecciona este computador
 
-    ![Abrir_Fichero](/resources/images/getting%20started/image-1.png)
-    ![Este_Computador](/resources/images/getting%20started/image-2.png)
+    ![Abrir_Fichero](/resources/images/getting_started/image-1.png)
+    ![Este_Computador](/resources/images/getting_started/image-2.png)
 
 2. Encuentra la librería descargada y ábrela
 3. Da click en fichero, después a guardar como
 
-    ![Fichero](/resources/images/getting%20started/image-4.png)
-    ![Guardar_como](/resources/images/getting%20started/image-5.png)
+    ![Fichero](/resources/images/getting_started/image-4.png)
+    ![Guardar_como](/resources/images/getting_started/image-5.png)
 
 4. Aparecerá una ventana preguntando a donde guardar, seleccionamos *Dispositivo MicroPython* 
 
-    ![Donde_Guardar](/resources/images/getting%20started/image-6.png)
+    ![Donde_Guardar](/resources/images/getting_started/image-6.png)
 
 5. Saldrá una nueva ventana que nos pedirá darle un nombre al archivo y nos mostrara los archivos que se encuentran en la memoria Flash de nuestro microcontrolador. En este caso estamos guardando la librería vector3d.py por lo que lo guardaremos bajo ese nombre.
 
-    ![Name](/resources/images/getting%20started/image-7.png)
+    ![Name](/resources/images/getting_started/image-7.png)
 
 5. Y listo tenemos guardada nuestra librería en la raspberry
 
@@ -136,11 +136,11 @@ Al utilizar el arduino nano con el modulo de telemetría no es necesario descarg
 
 1. Dar click a *Library Manager*
 
-    ![Library Manager](/resources/images/getting%20started/image-8.png)
+    ![Library Manager](/resources/images/getting_started/image-8.png)
 
 2. Buscar la librería llamada *Adafruit MPU6050* y la instalamos. (Puede tardar un rato)
 
-    ![Instalar libreria](/resources/images/getting%20started/image-9.png)
+    ![Instalar libreria](/resources/images/getting_started/image-9.png)
 
 3. Listo tienes instalada la librería y puedes comenzar a programar 😊.
 
@@ -302,7 +302,7 @@ El código final resulta mucho mas largo y con mayor cantidad de variables e ins
     -Verifica que el baud rate este bien configurado, es decir que corresponda el valor introducido al momento de crear el objeto UART y la velocidad a la que esta configurado el modulo RYLR998 que por default viene a una velocidad de 115200
 - Para comprobar que se están enviando los mensajes utiliza un arduino uno y quítale el controlador AT con cuidado utilizando unas pinzas o destornillador plano chico, conecta el LORA RYLR998 a los puertos TX y RX de la tarjeta e inicializa el monitor serial y selecciona la opción que diga *Both NL & CR*.
     - De esta forma podrás interactuar con el modulo de manera directa y sin necesidad de un código, para esto en la linea de comando escribe los comandos *AT* y deberías comenzar a recibir respuestas, si esto no funciona podría significar que el modulo esta fallando o que alguna conexión es errónea.
-    - Un arduino uno sin el controlador AT se debería ver algo asi ![Arduino_SinAT](/resources/images/getting%20started/image-12.png)
+    - Un arduino uno sin el controlador AT se debería ver algo asi ![Arduino_SinAT](/resources/images/getting_started/image-12.png)
     
 - Recuerda que TX de la placa va a RX del Modulo
 

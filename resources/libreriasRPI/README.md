@@ -4,22 +4,22 @@ En este texto encontraras 3 métodos para la instalación de librerías para mic
 
 1. Da click a la opción de abrir fichero y selecciona este computador
 
-    ![Abrir_Fichero](/resources/images/getting%20started/image-1.png)
-    ![Este_Computador](/resources/images/getting%20started/image-2.png)
+    ![Abrir_Fichero](/resources/images/getting_started/image-1.png)
+    ![Este_Computador](/resources/images/getting_started/image-2.png)
 
 2. Encuentra la librería descargada y ábrela
 3. Da click en fichero, después a guardar como
 
-    ![Fichero](/resources/images/getting%20started/image-4.png)
-    ![Guardar_como](/resources/images/getting%20started/image-5.png)
+    ![Fichero](/resources/images/getting_started/image-4.png)
+    ![Guardar_como](/resources/images/getting_started/image-5.png)
 
 4. Aparecerá una ventana preguntando a donde guardar, seleccionamos *Dispositivo MicroPython* 
 
-    ![Donde_Guardar](/resources/images/getting%20started/image-6.png)
+    ![Donde_Guardar](/resources/images/getting_started/image-6.png)
 
 5. Saldrá una nueva ventana que nos pedirá darle un nombre al archivo y nos mostrara los archivos que se encuentran en la memoria Flash de nuestro microcontrolador. En este caso estamos guardando la librería vector3d.py por lo que lo guardaremos bajo ese nombre.
 
-    ![Name](/resources/images/getting%20started/image-7.png)
+    ![Name](/resources/images/getting_started/image-7.png)
 
 6. Y listo tenemos guardada nuestra librería en la raspberry
 
